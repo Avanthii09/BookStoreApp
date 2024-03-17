@@ -1,0 +1,168 @@
+/* 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(130, 85, 52); 
+    padding: 8px 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-logo-container img {
+    width: 160px; 
+}
+
+
+.navbar-links-container {
+    display: flex; 
+    align-items: center;
+
+}
+
+
+
+.navbar-links-container a {
+    text-decoration: none;
+ 
+    margin-right: 30px;
+    font-weight: 700;
+    font-size: larger;
+    font-family: 'Reem Kufi', sans-serif;
+    transition: color 0.3s ease;
+}
+
+.navbar-select {
+    color: #3b2409;
+}
+.navbar-select :hover {
+    color: #71420b !important;
+}
+
+.navbar-cart-icon {
+    font-size: 1.5rem;
+    color: #3b2409;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+    vertical-align: middle;
+}
+
+
+.primary-button {
+    background-color: #3b2409;
+    color: #d1b390;
+    padding: 8px 8px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.primary-button:hover {
+    background-color: #5f3c14;
+    color: #dbaf7e;
+}
+
+.navbar-menu-container {
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+    color: #3b2409;
+}
+
+@media (max-width: 768px) {
+    .navbar-menu-container {
+        display: block;
+    }
+
+    .navbar-links-container {
+        display: none;
+    }
+} */
+
+
+/* Navbar Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(130, 85, 52);
+    padding: 8px 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-logo-container img {
+    width: 160px;
+}
+
+/* Navbar Links Styles */
+.navbar-links-container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links-container a {
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: 700;
+    font-size: larger;
+    font-family: 'Reem Kufi', sans-serif;
+    transition: color 0.3s ease;
+}
+
+.navbar-select {
+    color: #3b2409;
+}
+
+.navbar-select:hover {
+    color: #71420b !important;
+}
+
+/* Navbar Cart Icon Styles */
+.navbar-cart-icon {
+    font-size: 1.5rem;
+    color: #3b2409;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+    vertical-align: middle;
+}
+
+/* Primary Button Styles */
+.primary-button {
+    background-color: #3b2409;
+    color: #d1b390;
+    padding: 8px 8px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.primary-button:hover {
+    background-color: #5f3c14;
+    color: #dbaf7e;
+}
+
+/* Navbar Menu Icon Styles */
+.navbar-menu-container {
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+    color: #3b2409;
+}
+
+/* Media query to show menu icon on smaller screens */
+@media (max-width: 768px) {
+    .navbar-menu-container {
+        display: block;
+    }
+
+    .navbar-links-container {
+        display: none;
+    }
+}

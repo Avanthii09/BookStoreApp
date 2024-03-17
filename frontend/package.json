@@ -1,0 +1,59 @@
+{
+  "name": "basic",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/icons-material": "^5.15.12",
+    "@progress/kendo-react-common": "^7.2.3",
+    "@progress/kendo-react-indicators": "^7.2.3",
+    "@progress/kendo-react-inputs": "^7.2.3",
+    "@progress/kendo-react-layout": "^7.2.3",
+    "@progress/kendo-svg-icons": "^2.1.0",
+    "@progress/kendo-theme-default": "^7.2.1",
+    "@progress/kendo-theme-material": "^7.2.0",
+    "@react-oauth/google": "^0.12.1",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "firebase": "^10.8.1",
+    "flowbite-react": "^0.7.2",
+    "jwt-decode": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
+    "react-phone-input-2": "^2.15.1",
+    "react-router-dom": "^6.22.2",
+    "react-scripts": "5.0.1",
+    "swiper": "^11.0.7",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

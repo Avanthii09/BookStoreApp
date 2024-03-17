@@ -1,0 +1,38 @@
+[
+    {
+      "uid": "1",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phoneNumber": "123-456-7890",
+      "address": "123 Main St, Cityville, USA"
+    },
+    {
+      "uid": "2",
+      "name": "Alice Smith",
+      "email": "alice.smith@example.com",
+      "phoneNumber": "987-654-3210",
+      "address": "456 Oak St, Townsville, USA"
+    },
+    {
+      "uid": "3",
+      "name": "Bob Johnson",
+      "email": "bob.johnson@example.com",
+      "phoneNumber": "555-123-4567",
+      "address": "789 Pine St, Villageland, USA"
+    },
+    {
+      "uid": "4",
+      "name": "Eva Martinez",
+      "email": "eva.martinez@example.com",
+      "phoneNumber": "111-222-3333",
+      "address": "101 Cedar St, Hamletville, USA"
+    },
+    {
+      "uid": "5",
+      "name": "Chris Taylor",
+      "email": "chris.taylor@example.com",
+      "phoneNumber": "777-888-9999",
+      "address": "202 Birch St, Countryside, USA"
+    }
+  ]
+  

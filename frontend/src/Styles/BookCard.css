@@ -1,0 +1,40 @@
+/* BookCard.css */
+/* .book-card {
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .book-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .book-card .bg-blue-700 {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .book-card .bg-blue-700:hover {
+    background-color: black;
+  }
+   */
+
+   .book-card {
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .book-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .book-card .bg-blue-700 {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .book-card .bg-blue-700:hover {
+    background-color: black;
+  }
+  

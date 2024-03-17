@@ -1,0 +1,308 @@
+/* BookDetails.css
+
+.bkdetbody {
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .book-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  
+  .k-card {
+    width: 500px; 
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex; 
+  }
+  
+  .book-image-container {
+    flex-shrink: 0;
+  }
+  
+ 
+  .k-card-image {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .book-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    margin-left: 20px;
+    width: 100%; 
+    padding: 20px;
+  }
+  
+  .book-title {
+    font-size: 24px;
+    color: #2d1b06;
+    margin-bottom: 10px;
+    font-family: "Signika Negative", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  
+  .bookdetails-author {
+    font-size: 18px;
+    color: #2d1b06;
+    margin-bottom: 10px;
+    font-family: "Signika Negative", sans-serif;
+    font-weight: 500;
+  }
+  
+  .bookdetails-description {
+    font-size: 16px;
+    color: #6a4a24;
+    max-width: 400px;
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+  }
+  
+  .bookdetails-cost {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+  }
+   */
+
+
+/* BookDetails.css */
+/* 
+.bkdetbody {
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .book-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .k-card {
+    width: 500px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+  }
+  
+  .book-image-container {
+    flex-shrink: 0;
+  }
+  
+  .k-card-image {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .book-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .book-title {
+    font-size: 24px;
+    color: #2d1b06;
+    margin-bottom: 10px;
+    font-family: "Signika Negative", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  
+  .bookdetails-author {
+    font-size: 18px;
+    color: #2d1b06;
+    margin-bottom: 10px;
+    font-family: "Signika Negative", sans-serif;
+    font-weight: 500;
+  }
+  
+  .bookdetails-description {
+    font-size: 16px;
+    color: #6a4a24;
+    max-width: 400px;
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+  }
+  
+  .bookdetails-cost {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+  }
+   */
+
+/* BookDetails.css */
+
+/* .bkdetbody {
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .book-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .book-image-container {
+    flex-shrink: 0;
+  }
+  
+  .book-image {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .bookdetailscard {
+    width: 500px; 
+    background-color: #f5f5f5;
+    color: #2d1b06;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+
+  
+  .book-info-container {
+    margin-left: 20px;
+  }
+  
+  .book-title {
+    font-size: 24px;
+    color: #2d1b06;
+    margin-bottom: 10px;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .bookdetails-author {
+    font-size: 18px;
+    color: #2d1b06;
+    margin-bottom: 10px;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 500;
+  }
+  
+  .bookdetails-description {
+    font-size: 16px;
+    color: #6a4a24;
+    margin-bottom: 20px;
+    max-width: 400px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+  }
+  
+  .bookdetails-cost {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+
+  .bkdeticons{
+    color: #2d1b06;
+    
+  } */
+
+
+  /* BookDetails.css */
+
+.bkdetbody {
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .book-details-container {
+    display: flex;
+    position: relative;
+    top: -100px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .book-image-container {
+    flex-shrink: 0;
+    margin-right: 20px; /* Add a margin to create a gap between image and card */
+  }
+  
+  .book-image {
+    width: 300px; /* Set the width to match the card width */
+    height: 500px; /* Set the height to match the card height */
+    object-fit: cover;
+    border-radius: 10px; /* Match the card border-radius */
+  }
+  
+  .bookdetailscard {
+    width: 500px;
+    background-color: #f5f5f5;
+    color: #2d1b06;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .book-info-container {
+    margin-left: 20px;
+  }
+  
+  .book-title {
+    font-size: 24px;
+    color: #2d1b06;
+    margin-bottom: 10px;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .bookdetails-author {
+    font-size: 18px;
+    color: #2d1b06;
+    margin-bottom: 10px;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 500;
+  }
+  
+  .bookdetails-description {
+    font-size: 16px;
+    color: #6a4a24;
+    margin-bottom: 20px;
+    max-width: 400px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+  }
+  
+  .bookdetails-cost {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .bkdeticons {
+    color: #2d1b06 !important;
+    width: 40px !important;
+  height: 40px !important; 
+  }
+  
